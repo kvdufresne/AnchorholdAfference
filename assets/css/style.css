@@ -16,16 +16,16 @@
 
 .LatexTitle{
     font-family: 'Meddon', cursive;
-    font-size: 100px;
-    padding-top: 15vh;
-    text-align: center;
+    font-size: 125px;
+    padding-top: 5vh;
+    text-align: left;
     margin-bottom: 20px;
 }
 
 .LatexName{
     font-family: CMR;
-    font-size: 27px;
-    text-align: center;
+    font-size: 35px;
+    text-align: left;
     margin-bottom: 200px;
 }
 .LatexDate{
@@ -84,14 +84,19 @@
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+iframe {
+    display: block;
+    margin: 0 auto;
+ }
 
 .footerSize{
     height: 40vh;
     width: 100%;
 }
-
